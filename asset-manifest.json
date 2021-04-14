@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/DonateOne/static/css/main.0a3c621e.chunk.css",
+    "main.js": "/DonateOne/static/js/main.998f4771.chunk.js",
+    "main.js.map": "/DonateOne/static/js/main.998f4771.chunk.js.map",
+    "runtime-main.js": "/DonateOne/static/js/runtime-main.6deaa628.js",
+    "runtime-main.js.map": "/DonateOne/static/js/runtime-main.6deaa628.js.map",
+    "static/js/2.85f435bf.chunk.js": "/DonateOne/static/js/2.85f435bf.chunk.js",
+    "static/js/2.85f435bf.chunk.js.map": "/DonateOne/static/js/2.85f435bf.chunk.js.map",
+    "static/js/3.0ef7c9cf.chunk.js": "/DonateOne/static/js/3.0ef7c9cf.chunk.js",
+    "static/js/3.0ef7c9cf.chunk.js.map": "/DonateOne/static/js/3.0ef7c9cf.chunk.js.map",
+    "index.html": "/DonateOne/index.html",
+    "static/css/main.0a3c621e.chunk.css.map": "/DonateOne/static/css/main.0a3c621e.chunk.css.map",
+    "static/js/2.85f435bf.chunk.js.LICENSE.txt": "/DonateOne/static/js/2.85f435bf.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6deaa628.js",
+    "static/js/2.85f435bf.chunk.js",
+    "static/css/main.0a3c621e.chunk.css",
+    "static/js/main.998f4771.chunk.js"
+  ]
+}
