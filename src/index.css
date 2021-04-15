@@ -9,10 +9,10 @@ body {
 
 .paymentForm {
   position: relative;
-  right: -500px;
-  top: -600px;
+  right: -350px;
+  top: -500px;
   z-index: 2;
-  width: 30vw;
+  width: 70vw;
   padding: 20px;
 }
 .card {
@@ -33,22 +33,6 @@ body {
 .cardBorder:hover {
   border: 3px solid #b4b4b8;
 }
-
-/* .firstBorderColor {
-  border: 5px solid #b4b4b8;
-  color: orange;
-}
-.secondBorderColor {
-  border: 5px solid #7c7c80;
-  color: black;
-} */
-/* .cardBorder:active {
-  border: 3px solid black;
-} */
-
-/* .container {
-  width: 65vw;
-} */
 
 .confirmBtn {
   margin-top: 10px;
@@ -73,5 +57,57 @@ body {
 /* @media (max-width: 767.98px) {
   .container {
     width: "@";
+  }
+} */
+
+@media (min-width: 768px) {
+  .card {
+    width: 30vw;
+  }
+  /* .container {
+    width: 100vw;
+  } */
+  .card-body {
+    width: 60vw;
+  }
+  .paymentForm {
+    position: relative;
+    /* top: 50%; */
+    right: -450px;
+    z-index: 2;
+    width: 70vw;
+    padding: 70px;
+    padding-right: 70px;
+  }
+}
+
+@media (min-width: 992px) {
+  .card {
+    width: 20vw;
+  }
+  .container {
+    width: 50vw;
+  }
+  .card-body {
+    width: 40vw;
+  }
+  .paymentForm {
+    position: relative;
+    right: -550px;
+    z-index: 2;
+    height: 50%;
+    width: 40%;
+    padding: 70px;
+  }
+}
+/* @media (min-width: 1200px) {
+  .paymentForm {
+    position: relative;
+    right: -650px;
+    z-index: 2;
+    top: -650px;
+    height: 50%;
+    width: 40%;
+    padding: 70px;
   }
 } */

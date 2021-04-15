@@ -36,8 +36,8 @@ function Donate () {
         // console.log(ClickDonate);
 
        return(
-          <section className="container w-75 p-5" >
-            <div className="card w-75" >
+          <section className="container " >
+            <div className="card w-100" >
             <h4 className="text-start" style={{paddingTop:'20px', paddingLeft:'40px'}}>
                 How much do you want to donate?
             </h4>
