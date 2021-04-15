@@ -1,13 +1,21 @@
 import StripeContainer from './StripeContainer'
 
 
-const Payment = ({show,clicked}) => {
+const Payment = ({show,clicked,feedDays,selectedRadioBtn}) => {
     return ( 
         <div  className="paymentForm">
          {show  ? <section className="container w-100 p-3 h-75" >
             <div className="card " >
             <h4 className="text-start" style={{paddingTop:'20px', paddingLeft:'40px'}}>
-               Feed a child for 3 days
+               {feedDays.map((info) => {
+                  const{kid,amount,id} = info
+                  console.log(info)
+                     return(
+                        <div key={id}>
+                        <p>{kid} @ {amount}</p>
+                     </div>
+                     )
+               })}
             </h4>
             <div>
                < StripeContainer/>
